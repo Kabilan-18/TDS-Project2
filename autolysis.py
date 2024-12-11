@@ -98,8 +98,6 @@ def generate_code_and_execute(df, api_key):
         generated_code = interact_with_openai(prompt, api_key)
 
         cleaned_code = clean_generated_code(generated_code)
-        
-        print(cleaned_code)
 
         exec(cleaned_code)
     except RuntimeError as e:
