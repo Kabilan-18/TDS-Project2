@@ -90,7 +90,7 @@ def generate_code_and_execute(df, api_key):
         "The code should save the images as PNG files (e.g., 'histogram.png', 'heatmap.png') and generate a README.md file with a brief description of the dataset and results of your automated analysis, written as a story."
         "Also, use 'ISO 8859-1' as the dataset may contain diacritics and use only the numbered columns to create charts."
         "Keep images small. 512x512 px images are ideal. That's the size of 1 tile. Or, send detail: low to reduce cost"
-        "The code must be basic, functional, and ready for execution without requiring any manual corrections."
+        "The code must be ready for execution without requiring any manual corrections."
         "The response should only include the code and no other text as it's directly passed into the exec() function."
     )
     
